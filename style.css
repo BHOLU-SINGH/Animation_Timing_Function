@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+section{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+section h2{
+  text-align: center;
+  font-size: 50px;
+  color: #03447A;
+  margin-bottom: 2%;
+}
+section .card{
+  width: 210px;
+  height: 70px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color: #03447A;
+  font-size: 50px;
+  padding-left: 12px;
+
+  animation-duration: 3s;  
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+section .card1{
+  animation-name: bholu1;
+  animation-timing-function: ease; 
+  background-color: tomato;
+}
+section .card2{
+  animation-name: bholu2;
+  animation-timing-function: linear; 
+  background-color: lightblue;
+  margin-top: 1%;
+}
+section .card3{
+  animation-name: bholu3;
+  animation-timing-function: ease-in; 
+  background-color: lightgreen; 
+  margin-top: 1%;
+}
+section .card4{
+  animation-name: bholu4;
+  animation-timing-function: ease-out; 
+  background-color: lightgrey; 
+  margin-top: 1%;
+}
+section .card5{
+  animation-name: bholu5;
+  animation-timing-function: ease-in-out;  
+  background-color: orange;
+  margin-top: 1%;
+}
+section .card6{
+  animation-name: bholu6;
+  animation-timing-function: step-start(1, start); 
+  background-color: pink; 
+  margin-top: 1%;
+}
+section .card7{
+  animation-name: bholu7;
+  animation-timing-function: step-end(1, end); 
+  background-color: mediumblue; 
+  margin-top: 1%;
+}
+@keyframes bholu1
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
+@keyframes bholu2
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
+@keyframes bholu3
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
+@keyframes bholu4
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
+@keyframes bholu5
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
+@keyframes bholu6
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
+@keyframes bholu7
+{ 0% { width: 210px; }
+  100% { width: 95%; }
+}
